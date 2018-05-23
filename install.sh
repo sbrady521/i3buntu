@@ -168,6 +168,15 @@ git clone https://github.com/FortAwesome/Font-Awesome.git
 cp -v Font-Awesome/fonts/*.ttf ~/.fonts
 rm -rf Font-Awesome
 
+
+###### Some nice themes
+sudo add-apt-repository ppa:papirus/papirus
+sudo apt-get update
+sudo apt-get install papirus-icon-theme
+
+sudo wget -O /usr/share/themes/OSX-Arc-Shadow.tar.gz https://github.com/LinxGem33/OSX-Arc-Shadow/archive/v1.3.7.tar.gz
+sudo tar zxvf OSX-Arc-Shadow.tar.gz
+
 ###### Get and install Moka icon theme
 # add-apt-repository ppa:moka/daily -y
 # apt update
